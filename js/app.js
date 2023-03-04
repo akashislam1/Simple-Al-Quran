@@ -70,7 +70,7 @@ const displaySurahInModal = data =>{
     const surahModalLabel = document.getElementById('surahModalLabel');
     const {ayahs} = data;
     ayahs.forEach(ayah =>{
-        surahModalLabel.innerText = `${data.englishName}`
+        surahModalLabel.innerText = `${data.number} . ${data.englishName}`
         // console.log(ayah);
         const {numberInSurah, text} = ayah;
         const p = document.createElement('p');
