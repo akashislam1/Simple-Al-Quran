@@ -18,7 +18,7 @@ const displaySurah = surah =>{
     const surahCcontainer = document.getElementById('ayat-container');
     surahCcontainer.innerHTML = '';
     ayahs.forEach(ayah => {
-        // console.log(ayah.text);
+        
         const p = document.createElement('p');
         p.innerText = `${ayah.numberInSurah}. ${ayah.text}`;
         surahCcontainer.appendChild(p)
