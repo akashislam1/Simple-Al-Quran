@@ -64,7 +64,7 @@ const loadSurahNumber = number =>{
 }
 
 const displaySurahInModal = data =>{
-    // console.log(data)
+    
     const modalBody = document.getElementById('modal-body');
     modalBody.innerHTML = '';
     const surahModalLabel = document.getElementById('surahModalLabel');
