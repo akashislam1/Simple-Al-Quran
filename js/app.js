@@ -13,7 +13,7 @@ const displaySurah = surah =>{
     const {englishName, number, numberOfAyahs, ayahs} = surah;
     // console.log(numberOfAyahs)
     setInnerTextById('name', englishName);
-    setInnerTextById('ayat-No', number);
+    setInnerTextById('surah-No', number);
     setInnerTextById('number-of-ayat', numberOfAyahs);
     const surahCcontainer = document.getElementById('ayat-container');
     surahCcontainer.innerHTML = '';
